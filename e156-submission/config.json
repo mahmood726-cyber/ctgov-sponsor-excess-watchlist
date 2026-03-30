@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Sponsor Excess Watchlist",
+  "slug": "ctgov-sponsor-excess-watchlist",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-sponsor-excess-watchlist",
+  "type": "methods",
+  "primary_estimand": "Adjusted excess no-results and ghost-protocol stock among named lead sponsors with at least 100 older studies",
+  "summary": "A standalone E156 project on which named sponsors still carry the largest excess hiddenness stock after visible study mix is held more constant.",
+  "body": "Which named CT.gov sponsors remain worst once hiddenness is read as adjusted excess stock rather than raw rate alone? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot. We reused the study-mix-adjusted no-results and ghost models, then ranked sponsors with at least 100 studies by observed-versus-expected excess, black-box stock, overdue depth, and strict-core carryover. Assistance Publique - Hopitaux de Paris carried the largest adjusted excess no-results stock at 265 studies, followed by Sanofi at 197 and Cairo University at 164. Sanofi also showed 219 excess ghost protocols, while the strict U.S.-nexus core was led by National Cancer Institute at 361 missing-results studies. The sponsor backlog therefore does not collapse into one sector, but major industrial and hospital systems remain prominent repeat offenders across the international registry and its strict-core subset. These watchlists use registry-visible sponsorship and adjusted excess estimates, not audited legal responsibility, ultimate funder structure, or causally attributable silence.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Which named CT.gov sponsors remain worst once hiddenness is read as adjusted excess stock rather than raw rate alone?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "We reused the study-mix-adjusted no-results and ghost models, then ranked sponsors with at least 100 studies by observed-versus-expected excess, black-box stock, overdue depth, and strict-core carryover."
+    },
+    {
+      "role": "Primary result",
+      "text": "Assistance Publique - Hopitaux de Paris carried the largest adjusted excess no-results stock at 265 studies, followed by Sanofi at 197 and Cairo University at 164."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Sanofi also showed 219 excess ghost protocols, while the strict U.S.-nexus core was led by National Cancer Institute at 361 missing-results studies."
+    },
+    {
+      "role": "Interpretation",
+      "text": "The sponsor backlog therefore does not collapse into one sector, but major industrial and hospital systems remain prominent repeat offenders across the international registry and its strict-core subset."
+    },
+    {
+      "role": "Boundary",
+      "text": "These watchlists use registry-visible sponsorship and adjusted excess estimates, not audited legal responsibility, ultimate funder structure, or causally attributable silence."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Sponsor Excess Watchlist dashboard",
+    "data": "249,507 eligible older closed interventional studies with sponsor-level adjusted residuals and strict-core spillover fields",
+    "code": "https://github.com/mahmood726-cyber/ctgov-sponsor-excess-watchlist",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "DeVito NJ, Bacon S, Goldacre B. Compliance with legal requirement to report clinical trial results on ClinicalTrials.gov: a cohort study. Lancet. 2020;395(10221):361-369.",
+    "Zarin DA, Tse T, Williams RJ, Carr S. Trial reporting in ClinicalTrials.gov. N Engl J Med. 2016;375(20):1998-2004."
+  ]
+}
